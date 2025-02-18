@@ -1,4 +1,4 @@
-target-version = "py313"
+target-version = "py38"
 line-length = 160
 indent-width = 2
 extend-exclude = [".vscode", ".idea", "__pycache__", ".python-version", ".ruff.toml", "ruff.toml", "setup.cfg", "pyproject.toml"]
@@ -8,6 +8,7 @@ indent-style = "space"
 line-ending = "lf"
 docstring-code-format = true
 docstring-code-line-length = 120
+
 
 [lint]
 # D - Enable all `pydocstyle` rules, limiting to those that adhere to the Pep257 convention enabled via `convention = "pep257"` below
